@@ -105,7 +105,7 @@ button {
 }
 
 .emojis img {
-    width: 150px;
+    width: 160px;
     border: rgb(11, 110, 232) solid 5px;
     border-radius: 10px;
 }
@@ -124,10 +124,22 @@ button {
 
 /* section2 END */
 
+/* section3 START */
+
 .section3 {
     background-color: #E5E7EB;
 }
 
 .section3 :first-child {
     font-style: italic;
+    font-weight: lighter;
+    padding: 100px 110px 0px;
 }
+
+.section3 :last-child {
+    text-align: right;
+    padding-right: 120px;
+    padding: 0px 120px 80px 0;
+    font-weight: bold;
+}
+
