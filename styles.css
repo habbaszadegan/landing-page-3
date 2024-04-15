@@ -12,7 +12,7 @@ button, .action {
     background-color: #3882F6;
 }
 
-.section2 p, .section3 :first-child {
+.section2 > p, .section3 :first-child {
     color: #1F2937;
     font-size: 36px;
 }
@@ -21,14 +21,26 @@ button, .action {
     color: #F9FAF8;
 }
 
-.hero-text :first-child, .section2 p {
+.hero-text :first-child, .section2> p {
     font-weight: 1000;
 }
 
 .section1, .section2, .section3, .section4, .section5 {
     padding: 10px 200px 0px;
 }
+
+button {
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    padding: 5px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
 /* Grouped styles END */
+
+/* section1 START */
 
 .header {
     display: flex;
@@ -72,15 +84,45 @@ button, .action {
     color: #E5E7EB;
 }
 
-button {
-    color: white;
-    border: none;
-    border-radius: 4px;
-    width: 100px;
-    padding: 5px;
-    font-weight: bold;
-    margin: 10px 0px;
+/* section1 END */
+
+/* section2 START */
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.section2 > p {
+    margin: 40px;
+}
+
+.emojis {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.emojis img {
+    width: 150px;
+    border: rgb(11, 110, 232) solid 5px;
+    border-radius: 10px;
+}
+
+.emoji > p {
+    text-align: center;
+}
+
+.emoji {
+    flex-basis: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px 100px;
+}
+
+/* section2 END */
 
 .section3 {
     background-color: #E5E7EB;
