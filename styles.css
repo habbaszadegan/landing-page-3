@@ -21,7 +21,7 @@ button, .action {
     color: #F9FAF8;
 }
 
-.hero-text :first-child, .section2> p {
+.hero-text :first-child, .section2 > p {
     font-weight: 1000;
 }
 
@@ -143,3 +143,24 @@ button {
     font-weight: bold;
 }
 
+/* section3 END */
+
+/* section4 START */
+.action {
+    margin: 80px 0px;
+    border-radius: 8px;
+    color: white;
+    padding: 40px 100px;
+    display: flex;
+}
+
+.action > div {
+    flex: 1;
+}
+
+.action > button {
+    border: white solid 2px;
+    border-radius: 7px;
+}
+
+/* section4 END */
