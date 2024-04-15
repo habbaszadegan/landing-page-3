@@ -26,21 +26,60 @@ button, .action {
 }
 
 .section1, .section2, .section3, .section4, .section5 {
-    padding: 10px 180px 0px;
+    padding: 10px 200px 0px;
 }
 /* Grouped styles END */
 
 .header {
+    display: flex;
+}
+
+.header > h3 {
     font-size: 24px;
+    flex: 1;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+.header-links > a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    padding: 100px 0px;
+}
+
+.hero > img {
+    max-width: 50%;
+}
+
+.hero-text {
+    padding-right: 10px;
 }
 
 .hero-text :first-child {
     font-size: 48px;
+    line-height: 50px;
 }
 
 .hero-text :nth-child(2) {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+button {
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    padding: 5px;
+    font-weight: bold;
+    margin: 10px 0px;
 }
 
 .section3 {
