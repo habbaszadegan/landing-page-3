@@ -4,7 +4,7 @@
 }
 
 /* Grouped styles START */
-.section1, footer  {
+.section1, .section5  {
     background-color: #1F2937;
 }
 
@@ -25,15 +25,16 @@ button, .action {
     font-weight: 1000;
 }
 
-.section1, .section2, .section3, .section4, .section5 {
+.section1, .section2, .section3, .section4 {
     padding: 10px 200px 0px;
 }
 
 button {
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     width: 100px;
+    height: 30px;
     padding: 5px;
     font-weight: bold;
     margin: 10px 0px;
@@ -132,14 +133,14 @@ button {
 
 .section3 :first-child {
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 300;
     padding: 100px 110px 0px;
 }
 
 .section3 :last-child {
     text-align: right;
     padding-right: 120px;
-    padding: 0px 120px 80px 0;
+    padding: 0px 120px 110px 0;
     font-weight: bold;
 }
 
@@ -149,7 +150,7 @@ button {
 .action {
     margin: 80px 0px;
     border-radius: 8px;
-    color: white;
+    color: rgba(255, 255, 255, 0.822);
     padding: 40px 100px;
     display: flex;
 }
@@ -164,3 +165,19 @@ button {
 }
 
 /* section4 END */
+
+/* section5 START */
+
+.section5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.section5 :first-child {
+    color: rgba(255, 255, 255, 0.884);
+    font-size: 15px;
+}
+
+/* section5 END */
